@@ -1,0 +1,73 @@
+
+
+#clock {
+    background-size: cover;
+    background-image: url(./img/download.png);
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#hours,
+#mins,
+#seconds {
+    /* background-color: black;
+    transform-origin: bottom;
+    
+    position: absolute;
+    border-radius: 100%; */
+
+    position: absolute;
+    background: black;
+    border-radius: 100%; 
+    transform-origin: bottom;
+    
+}
+
+#hours{
+    /* top: 23%;
+    width: 0.5%;
+    height: 18%;
+    transform-origin: bottom;
+    left: 49.80%; */
+    /* display: none; */
+    
+    width: 1.5%;
+    height: 22%;
+    top: 28%;
+    left: 49.5%;
+    opacity: 0.8;
+}
+
+#mins{
+    /* top: 19%;
+    width: 0.4%;
+    height: 22%;
+    transform-origin: bottom;
+    left: 49.80%; */
+
+    width: 1.2%;
+    height: 26%;
+    top: 25%;
+    left: 49.5%;
+    opacity: 0.8; 
+
+}
+#seconds{
+    /* top: 16%;
+    width: 0.3%;
+    height: 26%; */
+    /* transform-origin: bottom; */
+    /* left: 49.80%; */
+
+    width: 0.5%;
+    height: 30%;
+    top: 20%;
+    left: 49.5%;
+    opacity: 0.8;
+    
+
+}
